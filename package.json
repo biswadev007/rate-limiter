@@ -1,0 +1,25 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biswadev007/rate-limiter.git"
+  },
+  "author": "Biswajit Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biswadev007/rate-limiter/issues"
+  },
+  "homepage": "https://github.com/biswadev007/rate-limiter#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "redis": "^4.6.13"
+  }
+}
